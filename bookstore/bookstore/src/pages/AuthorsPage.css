@@ -1,0 +1,75 @@
+
+.authors-page {
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .authors-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .authors-list {
+    text-align: center;
+  }
+  
+  .authors-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .authors-list li {
+    margin: 10px 0;
+  }
+  
+  .authors-list button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .authors-list button:hover {
+    background: #0056b3;
+  }
+  
+  .author-details {
+    margin-top: 20px;
+  }
+  
+  .books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .book-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-cover {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
+  }
+  
+  .book-info {
+    padding: 10px;
+  }
+  
+  .book-info h3 {
+    font-size: 1rem;
+    color: #333;
+  }

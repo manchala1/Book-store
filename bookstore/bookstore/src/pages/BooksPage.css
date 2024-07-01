@@ -1,0 +1,76 @@
+.books-page {
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .books-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .filter label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .filter select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .book-card img.book-cover {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .book-info {
+    padding: 10px;
+  }
+  
+  .book-info h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .book-info p {
+    color: #666;
+    font-size: 0.875rem;
+    margin: 5px 0;
+  }
+  
+  .book-info p strong {
+    color: #333;
+  }

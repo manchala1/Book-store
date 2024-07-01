@@ -1,0 +1,60 @@
+.homepage-container {
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .welcome-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .featured-book-section {
+    text-align: center;
+  }
+  
+  .featured-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .featured-book img.featured-book-cover {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-details {
+    padding: 10px;
+  }
+  
+  .book-details h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin: 10px 0 5px;
+  }
+  
+  .book-details p {
+    color: #666;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 600px) {
+    .featured-book img.featured-book-cover {
+      width: 100px; /* Smaller width on small screens */
+    }
+  
+    .book-details {
+      max-width: 100%; /* Full width on small screens */
+    }
+  
+    .book-details h3 {
+      font-size: 1rem; /* Adjust font size for better readability */
+    }
+  
+    .book-details p {
+      font-size: 0.75rem; /* Smaller font size for descriptions */
+    }
+  }
